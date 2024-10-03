@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+.registration_page{
+    height: 620px;
+    /* background-color: skyblue; */
+    background-image: linear-gradient(to right, rgb(95, 171, 243) , rgb(125, 231, 178))
+}
+
+/* .reg_img{
+    padding-top: 80px;
+}
+
+.reg_img img{
+    width:450px;
+} */
+
+.reg_form{
+    padding-top: 90px;
+}
+
+.reg_form .card{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.login_page{
+    height: 620px;
+    background-image: linear-gradient(to right, rgb(95, 171, 243) , rgb(125, 231, 178))
+}
+
+/* .log_img{
+    padding-top: 180px;
+}
+
+.log_img img{
+    width:200px;
+    height:200px;
+} */
+
+.log_form{
+    padding-top: 120px;
+}
+
+.log_form .card{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* .dashboard_head{
+    margin: 0 110px;
+} */
+
+.create_form{
+    width:500px;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logout_btn{
+    margin-left: 820px;
+}
+
+.sidebar{
+    list-style:none;
+    margin-top: 24px ;
+    border:1px solid green;
+    text-align: center;
+    padding: 0;
+    cursor:pointer;
+    background-color: bisque;
+    transition: 0.8s;
+    color:green;
+    font-size: 17px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 0 green;
+}
+
+.sidebar li{
+    border-bottom:1px solid green;
+    padding:24px 0;
+}
+
+.sidebar_link{
+    text-decoration: none;
+    color:green;
+}
+
+.sidebar_link:hover{
+    color: tomato;
+}
+
+.summary_type,.TotalType_type{
+    width:160px;
+    text-align: center;
+    color:green;
+    font-weight: bold;
+    background: blueviolet;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.summary_amount,.TotalType_amount{
+    width:160px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    background: blueviolet;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+
+.Total_type, .Total_summary{
+    text-decoration: none;
+    line-height: 40px;
+    cursor:pointer;
+}
+  
+
+
+  
+ 
